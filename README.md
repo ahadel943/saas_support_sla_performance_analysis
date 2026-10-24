@@ -48,3 +48,8 @@ The dataset supports the analysis of SLA Breach Rate across different support is
 | resolution_minutes | Time elapsed, in minutes, between ticket creation and resolution, where applicable. |
 | sla_target_hours | Target resolution time, in hours, assigned to the ticket based on its priority level. |
 | sla_status |	SLA compliance classification of the ticket, indicating whether it was resolved within the target, breached the target, remains open and overdue, is pending within the target, or was cancelled. |
+
+## **EDA & Baseline KPIs**
+An initial exploratory analysis was conducted to validate the dataset structure, review SLA status distributions, and establish baseline performance metrics. Out of **3,000** support tickets, **2,491** were resolved, with **622** breaching their SLA targets, resulting in an **overall SLA breach rate of 24.97%**. A preliminary comparison across issue categories identified Bugs & Errors and Integrations as the categories with the highest SLA breach rates and the largest numbers of breached tickets, highlighting them as priority areas for further investigation.
+
+
