@@ -25,8 +25,8 @@ The analysis will focus on resolved tickets when calculating the primary SLA bre
 ## **Project Business Question**
 **Which customer support issue categories have the highest SLA breach rates, and where should management prioritize further investigation?**
 
-## Executive Summary
-**No Summary Yet — To Be Completed After Analysis.**
+## **Executive Summary**
+**This project analyzed SLA performance across 3,000 simulated SaaS support tickets to identify issue categories, ticket priorities, and support teams requiring further investigation. Of the 2,491 resolved tickets, 622 breached their SLA targets, resulting in an overall breach rate of 24.97%. Bugs & Errors and Integrations recorded the highest breach rates and together accounted for 48.2% of all SLA breaches. Although P3 tickets generated the largest number of breaches, P1 recorded the highest breach rate in five of the six issue categories. Team Gamma emerged as a key area of concern, recording the highest overall breach rate (29.67%) and the highest rate within every issue category. The findings suggest prioritizing investigations into Bugs & Errors, Integrations, and Team Gamma, while reviewing priority-level patterns to understand the factors contributing to SLA breaches. As the dataset is simulated, these findings demonstrate an analytical approach rather than the performance of an actual SaaS company.**
 
 ## **Dataset Description**
 The dataset contains **3,000** support tickets simulated for a SaaS company operating in the software services industry. It consists of **13** columns covering ticket creation and resolution timestamps, issue categories, ticket priorities, support channels, support teams, customer subscription plans, response and resolution times, and Service Level Agreement (SLA) compliance status.
