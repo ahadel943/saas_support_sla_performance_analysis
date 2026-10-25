@@ -52,4 +52,36 @@ The dataset supports the analysis of SLA Breach Rate across different support is
 ## **EDA & Baseline KPIs**
 An initial exploratory analysis was conducted to validate the dataset structure, review SLA status distributions, and establish baseline performance metrics. Out of **3,000** support tickets, **2,491** were resolved, with **622** breaching their SLA targets, resulting in an **overall SLA breach rate of 24.97%**. A preliminary comparison across issue categories identified Bugs & Errors and Integrations as the categories with the highest SLA breach rates and the largest numbers of breached tickets, highlighting them as priority areas for further investigation.
 
+## **Analysis**
+**The analysis focused on comparing SLA breach rates across support issue categories, ticket priorities, and support teams to identify performance gaps and determine where management should prioritize further investigation. Additional comparisons examined breach volumes alongside breach rates to distinguish high ticket volumes from categories and teams experiencing disproportionately high SLA breach rates.**
+
+### **Bseline Metrics**
+![kpis](./charts/1.png)
+- The dataset contains **3,000 total tickets**, of which **2,491 were resolved**. Among the resolved tickets, **622 breached their SLA targets**, while **1,869 were resolved within SLA**, resulting in an overall SLA breach rate of **24.97%**.
+
+### **SLA Breach Rate by Issue Category**
+![2](./charts/2..png)
+- **Bugs & Errors recorded** the highest SLA breach rate at **37.81%**, followed by **Integrations** at **36.45%**.
+- **Account & Subscription** recorded the lowest breach rate at **15.20%**, a **22.61 percentage-point** gap compared with **Bugs & Errors**.
+- - **Both Bugs & Errors and Integrations** exceeded the overall breach rate of **24.97%**, highlighting them as priority areas for further investigation.
+
+### **SLA Breach Volume by Issue Category**
+![3](./charts/3.png)
+- **Bugs & Errors** and Integrations accounted for **300 of the 622** SLA breaches (**48.2%**), despite representing only **32.4%** of all resolved tickets. This indicates that SLA breaches are disproportionately concentrated in these two issue categories.
+- **Bugs & Errors** recorded **152** breached tickets, followed closely by **Integrations** with **148**. Together, these categories represent **nearly half of all resolved-ticket SLA breaches**, reinforcing their priority for further operational investigation.
+
+### **SLA Breach Rate by Issue Category and Priority**
+![4](./charts/4.png)
+- **P3 tickets accounted for the highest numbers of resolved tickets and SLA breaches across all six issue categories. However, the highest breach volume did not translate into the highest breach rate, highlighting the importance of distinguishing ticket volume from relative SLA risk**.
+- **P1** recorded the highest SLA breach rate in five of the six issue categories. **Billing & Payments** was the only exception, where **P2** had the highest breach rate at **29.09%**, compared with **19.05%** for **P1**.
+
+### **Overall SLA Breach Rate by Support Team**
+![5](./charts/5.png)
+- **Team Gamma** recorded the highest overall SLA breach rate at **29.67%**, compared with **23.56%** for **Team Beta** and **21.70%** for **Team Alpha**. **Gamma** accounted for **39.1%** of all SLA breaches, despite handling **32.9%** of resolved tickets, making it the primary support team for further investigation.
+
+### **SLA Breach Rate by Issue Category and Support Team**
+![6](./charts/6.png)
+- **Team Gamma recorded the highest SLA breach rate across all six issue categories**, including **44.00%** for **Bugs & Errors** and **43.41%** for **Integrations**. This consistent pattern indicates that **Gamma's elevated breach rate extends across different issue categories**, making the team a key priority for further operational investigation.
+
+> Overall, the analysis identified **Bugs & Errors** and **Integrations** as the **highest-breach** issue categories, **P1** as the priority with **the highest breach rate** in most categories, and **Team Gamma as the team with consistently elevated breach rates**. These findings establish clear priorities for further investigation, although additional analysis would be required to determine the underlying causes of SLA breaches.
 
