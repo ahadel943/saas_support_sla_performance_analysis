@@ -94,3 +94,10 @@ The analysis revealed an **overall SLA breach rate of 24.97%** across **2,491 re
 - **Review P1 and P3 tickets separately**: Investigate why P1 tickets have higher breach rates across most categories, while P3 tickets account for the largest number of breaches. This can help distinguish high-risk tickets from high-volume workload.
 - **Monitor SLA performance regularly**: Track breach rates and breach volumes by issue category, priority, and support team. Use consistent definitions and resolved-ticket denominators to identify deterioration and evaluate whether corrective actions improve performance.
 - **Conduct a follow-up root-cause analysis**: After reviewing the priority areas, examine relevant factors such as ticket complexity, assignment history, response delays, and resolution time to determine the drivers of SLA breaches before implementing targeted operational changes.
+
+## **Tools Used**
+- **`Microsoft Excel`**: Data analysis, PivotTables, and analytical calculations.
+- **`Power Query`**:  Data preparation and transformation.
+- **`DAX (Data Analysis Expressions)`**: Creating measures for SLA performance metrics.
+- **`Microsoft PowerPoint`**: Chart design and visual presentation of analytical findings.
+- **`Git / GitHub`**: Project version control and repository management
